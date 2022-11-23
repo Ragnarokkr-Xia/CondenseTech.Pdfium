@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>PdfiumNet.NativeAssets</id>
+    <version>103.0.5010</version>
+    <authors>Ragnarokkr.Xia</authors>
+    <owners>Ragnarokkr.Xia</owners>
+    <description>
+      Provides pre-built pdfium native libraries for win-x86/x64 and linux-x86/x64
+    </description>
+    <summary>
+      Provides pre-built pdfium native libraries for win-x86/x64 and linux-x86/x64
+    </summary>
+    <tags>native pdfium</tags>
+  </metadata>
+  <files>
+      <file src="build\native\libs\**" target="build\native\libs" />
+      <file src="PdfiumNet.NativeAssets.target" target="build"/>
+  </files>
+</package>

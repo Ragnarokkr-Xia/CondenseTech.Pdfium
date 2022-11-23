@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.1;net5.0;net6.0</TargetFrameworks>
+    <ImplicitUsings>disable</ImplicitUsings>
+	  <RootNamespace>CondenseTech.Pdfium</RootNamespace>
+    <Nullable>disable</Nullable>
+    <Platforms>AnyCPU;x86;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" Version="2.80.3" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux.NoDependencies" Version="2.80.3" />
+  </ItemGroup>
+
+</Project>
